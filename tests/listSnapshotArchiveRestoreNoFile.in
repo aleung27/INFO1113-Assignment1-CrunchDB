@@ -1,0 +1,11 @@
+LIST SNAPSHOTS
+SET k 8
+SET f 2
+SNAPSHOT
+LIST SNAPSHOTS
+RESTORE listSnapshotArchiveRestoreNoFileInput.txt
+LIST SNAPSHOTS
+SET m 32
+SNAPSHOT
+LIST SNAPSHOTS
+ARCHIVE 1 listSnapshotArchiveRestoreNoFile.txt

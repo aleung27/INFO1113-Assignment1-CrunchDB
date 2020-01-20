@@ -1,0 +1,12 @@
+SET z 10 2 93 3
+POP Z
+POP z
+GET z
+POP z
+GET z
+POP z
+GET z
+POP z
+GET z
+POP z
+GET z

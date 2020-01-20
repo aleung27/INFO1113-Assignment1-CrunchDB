@@ -1,0 +1,6 @@
+DEL a
+SET p 0
+GET p
+DEL p
+DEL p
+DEL p

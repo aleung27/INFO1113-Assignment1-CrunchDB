@@ -1,0 +1,15 @@
+SET a 4 5 6 2 4 4 10
+SORT a
+GET a
+UNIQ a
+GET a
+REV a
+GET a
+SET b 0
+SORT b
+GET b
+UNIQ b
+GET b
+REV b
+GET b
+BYE

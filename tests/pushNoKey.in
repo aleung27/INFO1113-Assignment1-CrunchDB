@@ -1,0 +1,6 @@
+SET a 1
+PUSH A 0
+PUSH B 0
+POP a
+PUSH a 9
+GET a

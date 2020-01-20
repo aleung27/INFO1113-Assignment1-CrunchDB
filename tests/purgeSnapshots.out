@@ -1,0 +1,32 @@
+> ok
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> ok
+
+> saved as snapshot 3
+
+> 3
+2
+1
+
+> ok
+
+> ok
+
+> no entries
+
+> ok
+
+> g [8]
+
+> ok
+
+> q [0]
+g [8]
+
+> bye

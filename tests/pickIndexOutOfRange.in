@@ -1,0 +1,11 @@
+SET w 1 2 3 4 5 6
+PICK w 0
+PICK w 1
+PICK w 6
+PICK w 7
+PICK w -1
+PICK w 1000000
+POP w
+PICK w 1
+PICK w 5
+PICK w 6

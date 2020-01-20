@@ -1,0 +1,19 @@
+SET a 0
+SET b 4 2 4
+DIFF a c
+UNION a c
+INTER a c
+CARTPROD a c
+POP a
+DIFF a b
+UNION a b
+INTER a b
+CARTPROD a b
+POP b
+POP b
+POP b
+DIFF a b
+UNION a b
+INTER a b
+CARTPROD a b
+BYE

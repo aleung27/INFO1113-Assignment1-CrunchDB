@@ -1,0 +1,37 @@
+> ok
+
+> ok
+
+> saved as snapshot 1
+
+> 9
+
+> 6
+
+> j [4 3]
+u [8 0 2]
+
+> saved as snapshot 2
+
+> ok
+
+> 9
+
+> 8
+
+> ok
+
+> saved as snapshot 3
+
+> ok
+
+> j [4 3]
+u [8 0 2]
+
+> 0
+
+> ok
+
+> j [6 4 3]
+u [9 8 0 2]
+

@@ -1,0 +1,17 @@
+SET a 2 4 5 1
+SET b 1
+SET c 2
+SET d 0 9 8
+DIFF a b c d
+UNION a b c d
+INTER a b c d
+CARTPROD a b c d
+DIFF d c b a
+UNION d c b a
+INTER d c b a
+CARTPROD d c b a
+POP b
+DIFF a b c d
+UNION a b c d
+INTER a b c d
+CARTPROD a b c d

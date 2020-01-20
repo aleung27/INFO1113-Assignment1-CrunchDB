@@ -1,0 +1,7 @@
+SET f 4
+SET 6 6
+ARCHIVE 1 archiveOverwrite.txt
+SNAPSHOT
+ARCHIVE 0 archiveOverwrite.txt
+ARCHIVE 1 archiveOverwrite.txt
+BYE

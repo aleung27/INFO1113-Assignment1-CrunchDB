@@ -1,0 +1,11 @@
+SET r 4
+GET r
+PUSH r 10101
+APPEND r 0
+GET r
+PICk r 1
+PLUCK r 1
+GET r
+POP r
+POP r
+GET r

@@ -1,0 +1,8 @@
+SET ...,./,/ 8
+SET ? 2
+SNAPSHOT
+SNAPSHOT
+SNAPSHOT
+SNAPSHOT
+ARCHIVE 3 archiveNewFile.txt
+BYE

@@ -1,0 +1,7 @@
+SET a 4
+SET A 0
+GET a
+GET A
+SET AA 7
+SET aa 1
+LIST ENTRIES

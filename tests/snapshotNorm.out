@@ -1,0 +1,28 @@
+> ok
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> 2
+1
+
+> ok
+
+> saved as snapshot 2
+
+> 2
+1
+
+> j [9]
+
+> saved as snapshot 3
+
+> ok
+
+> 1
+
+> j [9]
+

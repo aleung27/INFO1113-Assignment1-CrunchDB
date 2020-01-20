@@ -1,0 +1,33 @@
+Bye a
+HElp j
+SnapShot 4
+List
+LIst keys 2
+List entries 1
+List snapshots l
+get
+del
+purge
+pop 2 4 
+drop 2 2
+rollback
+checkout 3 5
+restore
+min 3 3 
+max 1 4 5 6 6
+sum
+len 33 2
+rev 4 4
+uniq d d 
+sort 6 7
+set
+push g
+append 4
+pick
+pluCk 1
+archive f
+diff
+inter 3
+union 1
+cartprod 1
+BYE

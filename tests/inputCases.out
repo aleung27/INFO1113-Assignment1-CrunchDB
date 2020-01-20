@@ -1,0 +1,145 @@
+> ok
+
+> ok
+
+> BYE   clear database and exit
+HELP  display this help message
+
+LIST KEYS       displays all keys in current state
+LIST ENTRIES    displays all entries in current state
+LIST SNAPSHOTS  displays all snapshots in the database
+
+GET <key>    displays entry values
+DEL <key>    deletes entry from current state
+PURGE <key>  deletes entry from current state and snapshots
+
+SET <key> <value ...>     sets entry values
+PUSH <key> <value ...>    pushes values to the front
+APPEND <key> <value ...>  appends values to the back
+
+PICK <key> <index>   displays value at index
+PLUCK <key> <index>  displays and removes value at index
+POP <key>            displays and removes the front value
+
+DROP <id>      deletes snapshot
+ROLLBACK <id>  restores to snapshot and deletes newer snapshots
+CHECKOUT <id>  replaces current state with a copy of snapshot
+SNAPSHOT       saves the current state as a snapshot
+
+ARCHIVE <id> <filename> saves snapshot to file
+RESTORE <filename> loads snapshot from file
+
+MIN <key>  displays minimum value
+MAX <key>  displays maximum value
+SUM <key>  displays sum of values
+LEN <key>  displays number of values
+
+REV <key>   reverses order of values
+UNIQ <key>  removes repeated adjacent values
+SORT <key>  sorts values in ascending order
+
+DIFF <key> <key ...>   displays set difference of values in keys
+INTER <key> <key ...>  displays set intersection of values in keys
+UNION <key> <key ...>  displays set union of values in keys
+CARTPROD <key> <key ...>  displays set union of values in keys
+
+> saved as snapshot 1
+
+> 0
+f
+
+> 1
+
+> 0 [3 1 24]
+f [4]
+
+> [4]
+
+> ok
+
+> ok
+
+> 3
+
+> ok
+
+> no such snapshot
+
+> no such snapshot
+
+> file not found
+
+> 1
+
+> 24
+
+> 25
+
+> 2
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> ok
+
+> 7
+
+> 7
+
+> no such snapshot
+
+> no such key
+
+> no such key
+
+> no such key
+
+> no such key
+
+> BYE   clear database and exit
+HELP  display this help message
+
+LIST KEYS       displays all keys in current state
+LIST ENTRIES    displays all entries in current state
+LIST SNAPSHOTS  displays all snapshots in the database
+
+GET <key>    displays entry values
+DEL <key>    deletes entry from current state
+PURGE <key>  deletes entry from current state and snapshots
+
+SET <key> <value ...>     sets entry values
+PUSH <key> <value ...>    pushes values to the front
+APPEND <key> <value ...>  appends values to the back
+
+PICK <key> <index>   displays value at index
+PLUCK <key> <index>  displays and removes value at index
+POP <key>            displays and removes the front value
+
+DROP <id>      deletes snapshot
+ROLLBACK <id>  restores to snapshot and deletes newer snapshots
+CHECKOUT <id>  replaces current state with a copy of snapshot
+SNAPSHOT       saves the current state as a snapshot
+
+ARCHIVE <id> <filename> saves snapshot to file
+RESTORE <filename> loads snapshot from file
+
+MIN <key>  displays minimum value
+MAX <key>  displays maximum value
+SUM <key>  displays sum of values
+LEN <key>  displays number of values
+
+REV <key>   reverses order of values
+UNIQ <key>  removes repeated adjacent values
+SORT <key>  sorts values in ascending order
+
+DIFF <key> <key ...>   displays set difference of values in keys
+INTER <key> <key ...>  displays set intersection of values in keys
+UNION <key> <key ...>  displays set union of values in keys
+CARTPROD <key> <key ...>  displays set union of values in keys
+
+> bye

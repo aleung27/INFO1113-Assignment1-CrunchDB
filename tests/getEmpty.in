@@ -1,0 +1,11 @@
+GET a
+SET a 3
+GET a
+GET b
+SET a 0 9 8 7 6 5 4 3
+GET a
+DEL a
+GET a
+SET a 1
+PURGE a
+GET a

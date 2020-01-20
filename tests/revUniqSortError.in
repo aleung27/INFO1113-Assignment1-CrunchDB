@@ -1,0 +1,9 @@
+SET a 4
+REV A
+UNIQ A
+SORT A
+POP a
+REV a
+UNIQ a
+SORT a
+BYE
